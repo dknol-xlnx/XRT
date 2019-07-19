@@ -50,6 +50,8 @@ def main(args):
 
     print("PASSED TEST")
 
+def gitcommit():
+    pass
 
 if __name__ == "__main__":
     main(sys.argv)
