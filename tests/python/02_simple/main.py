@@ -154,6 +154,11 @@ def main(args):
 
     print("PASSED TEST")
 
+    
+def alterprint():
+    pass
+    
+    
 
 if __name__ == "__main__":
     main(sys.argv)
