@@ -99,8 +99,6 @@ class Options(object):
         print("* Bitstream is required")
         print("* HAL logfile is optional but useful for capturing messages from HAL driver")
 
-def foo(bar):
- pass
 
 def initXRT(opt):
     deviceInfo = xclDeviceInfo2()
