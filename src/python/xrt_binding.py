@@ -1161,3 +1161,15 @@ def xclOpenMgmt(deviceIndex):
     libc.xclOpenMgmt.restype = xclDeviceHandle
     libc.xclOpenMgmt.argtype = ctypes.c_uint
     return libc.xclOpenMgmt(deviceIndex)
+
+  
+  
+def xclNSopen(deviceIndex):
+    '''
+    support Apple device
+    '''
+  return deviceIndex
+  
+  
+  
+  
