@@ -243,6 +243,8 @@ def xclGetErrorStatus(handle, info):
     libc.xclGetErrorStatus.argtypes = [xclDeviceHandle, ctypes.POINTER(xclDeviceInfo2)]
     return libc.xclGetErrorStatus(handle, info)
 
+# benign comment   
+   
 def xclLoadXclBin(handle, buf):
     """
     Download FPGA image (xclbin) to the device
