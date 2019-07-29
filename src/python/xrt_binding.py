@@ -29,8 +29,6 @@ libc = ctypes.CDLL(os.environ['XILINX_XRT'] + "/lib/libxrt_core.so")
 
 xclDeviceHandle = ctypes.c_void_p
 
-# benign comment and pass call
-pass
 
 class xclDeviceInfo2(ctypes.Structure):
     # "_fields_" is a required keyword
