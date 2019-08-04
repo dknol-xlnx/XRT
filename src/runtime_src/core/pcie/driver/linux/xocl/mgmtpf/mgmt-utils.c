@@ -20,7 +20,7 @@
 #include <linux/module.h>
 #include "../xocl_drv.h"
 
-#define XCLMGMT_RESET_MAX_RETRY		10
+#define XCLMGMT_RESET_MAX_RETRY		12
 
 /**
  * @returns: NULL if AER apability is not found walking up to the root port
